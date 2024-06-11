@@ -1,0 +1,116 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header {
+    height: 69px;
+    z-index: 50;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top: 0;
+    display: inline-flexbox;
+    background-color: black;
+}
+#logo {
+    align-items: center;
+    float: left;
+    margin-left: 10px;
+    height: 50px;
+    width:auto;
+    margin-top: 8px;
+}
+.nav-bar {
+    display: inline;
+    float: right;
+    margin: 20px 10px;
+}
+a {
+    color: grey;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+body {
+    position: relative;
+}
+.mission-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./resources/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px 800px;
+    background-position-x: center;
+    height: 700px;
+    width: 100%;
+    z-index: 1;
+}
+.mission-text {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 1200px;
+}
+#featured-tea {
+    margin: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.teatypes {
+    display: inline-flex;
+    justify-content:center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;
+}
+figure {
+    margin: 10px;
+}
+img {
+    display:inline-flex;
+    height: 200px;
+    width: 300px;
+}
+figcaption {
+    margin-top: 10px;
+}
+
+.locations-container {
+    background-image: url("./resources/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px 795px;
+    background-position-x: center;
+    height: 500px;
+    align-content: center;
+}
+.loc-ind {
+    display: inline-block;
+    width: 300px;
+    margin: 15px 20px;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    line-height: 2;
+}
+
+.contact {
+    height: 200px;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+    font-size: smaller;
+    font-weight: bold;
+}
